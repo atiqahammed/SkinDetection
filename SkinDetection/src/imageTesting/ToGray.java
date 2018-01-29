@@ -32,8 +32,7 @@ public class ToGray {
                 BufferedImage.TYPE_INT_RGB);
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < height; j++) {
-                int value = pixel[i][j] << 16 | pixel[i][j] << 8
-                        | pixel[i][j];
+                int value = pixel[i][j] << 16 | pixel[i][j] << 8 | pixel[i][j];
                 theImage.setRGB(i, j, rgb);
             }
         }
