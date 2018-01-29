@@ -14,7 +14,6 @@ public class Final {
 		int imageFileNumber = 1;
 		int [][][]skin = new int [256][256][256];
 		int [][][]nonSkin = new int [256][256][256];
-		int totalPixel = 0;
 		
 
 		while (true) {
@@ -40,9 +39,7 @@ public class Final {
 	        Raster raster = img.getData();
 	        for (int i = 0; i < width; i++) {
 	            for (int j = 0; j < height; j++) {
-	                totalPixel++;
-	            	
-	            	pixel[i][j] = raster.getSample(i, j, 0);
+	                pixel[i][j] = raster.getSample(i, j, 0);
 	                
 	                Color c1 = new Color(img.getRGB(i, j));
 	                Color c2 = new Color(msk.getRGB(i, j));
@@ -97,12 +94,6 @@ public class Final {
             	pixelTest[i][j] = raster.getSample(i, j, 0);
                 
                 Color c1 = new Color(testImg.getRGB(i, j));
-                
-                
-                double probabilityOfSkinGivenRGB = 
-                double probabilityOfNonSkinGivenRGB = 
-                ///////////////
-                
                 //Color c2 = new Color(msk.getRGB(i, j));
                 /*if(c2.getRed() == 0 && c2.getGreen() == 0 && c2.getBlue() == 0 )
                 	nonSkin[c1.getRed()][c1.getGreen()][c1.getBlue()]++;
@@ -112,12 +103,7 @@ public class Final {
             }
         }
 		
-        File outputfile = new File("image/out.png");
-        try {
-            ImageIO.write(theImage, "png", outputfile);
-        } catch (IOException e1) {
-
-        }
+		
 		
 		
 

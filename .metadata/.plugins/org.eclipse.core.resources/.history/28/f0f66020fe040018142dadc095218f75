@@ -99,9 +99,9 @@ public class Final {
                 Color c1 = new Color(testImg.getRGB(i, j));
                 
                 
-                double probabilityOfSkinGivenRGB = 
-                double probabilityOfNonSkinGivenRGB = 
-                ///////////////
+                
+                
+                
                 
                 //Color c2 = new Color(msk.getRGB(i, j));
                 /*if(c2.getRed() == 0 && c2.getGreen() == 0 && c2.getBlue() == 0 )

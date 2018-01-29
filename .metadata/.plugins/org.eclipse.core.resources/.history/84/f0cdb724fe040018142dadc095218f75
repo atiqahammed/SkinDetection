@@ -101,7 +101,7 @@ public class Final {
                 
                 double probabilityOfSkinGivenRGB = 
                 double probabilityOfNonSkinGivenRGB = 
-                ///////////////
+                
                 
                 //Color c2 = new Color(msk.getRGB(i, j));
                 /*if(c2.getRed() == 0 && c2.getGreen() == 0 && c2.getBlue() == 0 )
