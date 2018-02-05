@@ -117,3 +117,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421) ~[na:na]
 	... 8 common frames omitted
 2018-02-03 18:40:02,774 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-02-05 00:28:40,278 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
